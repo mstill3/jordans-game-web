@@ -1,0 +1,28 @@
+:root {
+  /* Global variables */
+  --flave-red: rgb(237, 28, 36);
+  --flave-dark-red: rgb(146, 18, 22);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+	padding: 10px;
+	margin-top: auto;
+	text-align: center;
+	font-weight: bold;
+	background-color: #f6f6f6;
+	border-color: #dddddd !important;
+	border-top: 1px solid;
+}
